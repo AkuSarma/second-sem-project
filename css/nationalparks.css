@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700; 800;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.flex-div{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+}
+
+.left-div, .right-div {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    padding: 4rem 2rem;
+}
+
+/* landing area */
+#landing-page {
+    position: relative;
+}
+
+#main-heading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.7);
+    -webkit-box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.7);
+    font-size: 50px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+/* attractions */
+#attractions {
+    margin: 2rem 10vw;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 0 rgba(5, 154, 246, 0.7);
+    -moz-box-shadow: 0 0 15px 0 rgba(5, 154, 246, 0.7);
+    -webkit-box-shadow: 0 0 15px 0 rgba(5, 154, 246, 0.7);
+    padding:  1rem;
+}
+
+#attractions img{
+    width: 30%;
+    height: 200px;
+}
+
+.flex-attractions-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.flex-attractions-div p {
+    padding: 1rem;
+}
+
+/* basic info */
+summary {
+    background-color: #c8c8c8;
+    padding: .5rem;
+    border-radius: 10px;
+    margin-bottom: .5rem;
+}
+
+table {
+    width: 50%;
+    margin-left: 25%;
+}
+
+th, td{
+    padding: 1rem;
+}
+
+th {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+tr:hover {
+    background-color: #c8c8c8;
+}
+
+details p {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+/* direction */
+#direction .left-div, #direction .right-div {
+    padding: 0;
+}
+
+.address-div p {
+    border-radius: 10px;
+    padding: 1rem;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* footer */
+footer {
+    padding: 1.5rem;
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff;
+    width: 100%;
+}
+
+footer  a {
+    color: #ffffff;
+    text-decoration: underline;
+}
